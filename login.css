@@ -1,0 +1,10 @@
+h1{
+	text-align: left;
+}
+body{
+	background-image: url(leave.jpg);
+	background-size: cover;
+}
+form{
+	font-size: 20px;
+}
