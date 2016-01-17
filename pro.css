@@ -1,0 +1,55 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+	width:1200px;
+	margin:auto;
+	background-image: url("leave.jpg");
+}
+header{
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+#menu{
+	
+	border:4px outset #00AACC;
+	margin:0px 0px auto ;
+	padding:5px;
+}
+nav li{
+	display: inline;
+	font-family: Georgia;
+	font-weight: bold;
+	font-style: italic;
+	padding:20px
+}
+form{
+	margin:20px 720px auto 100px;
+	padding:10px;
+}
+label{
+	text-align: left;
+	display: inline-block;
+	float: left;
+	color: purple;
+	font-family:Times New Roman;
+	font-weight:normal;
+	font-style: italic; 
+	font-size: 20px;
+}
+input{
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	background-color:#F0F8FF;
+}
+#button{
+	font-size: 20px;
+	color:#9900FF;
+	padding: 5px;
+	font-weight:bold;
+	font-family:Times New Roman;
+}
