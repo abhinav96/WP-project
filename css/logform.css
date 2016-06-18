@@ -1,94 +1,57 @@
-html {
-	margin: 0px;
-	padding: 0px; 
-}
-body{
-	margin: 0px;
-	padding: 0px;
-	background: url("../images/backgroundblue.jpg") no-repeat center center fixed;
-}
-#header nav ul a li{
-	display: inline-block;
-	padding: 0px;
-}
-#header nav{
-	background-color: rgba(0,0,0,0.7);
-	box-shadow: 1px 1px 20px black;
-	text-align: center;
-	font-family: Californian FB,"helvetica",sans-serif;
-	border-radius: 0px 0px 8px 8px;
-	width: 100%;
-	transition: all 0.2s ease-in;
-}
-#header nav ul a:hover{
-	color: white;
-	font-weight: bolder;
-	background-color: rgba(101, 202, 210,1);
-	box-shadow: 1px 1px 20px rgba(101, 202, 210,1);
-	border-radius: 5px;
-}
-#header nav ul{
-	padding: 1% 0%;
-	margin: 0px;
-}
-#header nav ul a{
-	padding: 1% 2%;
-	margin: 0px;
-	font-weight: bolder;
-}
-#header{
-	margin: 0px;
-	padding: 0px;
-}
-#header nav:hover{
-	padding: 0.6% 0%;
-	transition: padding 0.3s ease-out;
-}
-#para{
-	text-align: center;
-	font-family: Californian FB,"helvetica",sans-serif;
+#description{
+	text-align:center;
 	color:rgba(101, 202, 210,1);
-	font-size: 190%;
-	background-color:rgba(0,0,0,0.7);
-	margin: 8% 25% 6% 25%;
-	padding: 2% 1%;
-	box-shadow: 2px 2px 30px black;
-	border-radius: 10px;
-}
-#des{
-	text-align: center;
-	color: rgba(101, 202, 210,1);
-	font-family: Californian FB,"helvetica",sans-serif;
-	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	/*font-weight: bold;*/
 	font-size: 70%;
+	font-style: italic;
 	font-variant: small-caps;
+	margin: 0;
 }
 #login{
 	text-align: center;
-	font-family: Californian FB,"helvetica",sans-serif;
-	font-size: 90%;
+	font-family: 'Lato', sans-serif;
+	/*font-size: 80%;*/
 	font-variant: small-caps;
-	color: rgba(101, 202, 210,1);
-}
-a{
-	color: rgba(101, 202, 210,1);
+	color:rgba(101, 202, 210,1);
 }
 input{
-	color: rgba(0,0,0,1);
-	padding: 1%;
+	color:rgba(0,0,0,1);
+	padding:1%;
+	font-family: 'Lato', sans-serif;
 }
 input[type=submit]{
-	border: rgba(101, 202, 210,1);
-	padding: 1% 2%;
-	color: rgba(255,255,255,1);
-	font-weight: bold;
+	border:rgba(101, 202, 210,1);
+	padding:2% 3%;
+	color:rgba(255,255,255,1);
+	font-weight:bold;
 	background-color: rgba(101, 202, 210,0.8);
 	border-radius: 3px;
 	box-shadow: 1px 1px 20px black;
-	transition: padding 0.2s, box-shadow 0.2s;
 }
 input[type=submit]:hover{
 	box-shadow: 2px 2px 20px rgba(101, 202, 210,0.8);
-	padding: 1.2% 2.2%;
-	transition: all 0.2s;
+}
+#error{
+	font-size: 60%;
+	color: red;
+	text-align: center;
+}
+#heading{
+	margin: 0;
+	font-weight: bold;
+}
+#login p{
+	margin-bottom: 0px;
+	font-size: 88%;
+}
+#login label{
+	font-style: italic;
+	font-size: 60%;
+}
+#login table{
+	margin: auto;
+}
+#login table td{
+	text-align: left;
 }

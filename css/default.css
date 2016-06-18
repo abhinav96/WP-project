@@ -1,0 +1,115 @@
+html {
+	margin: 0px;
+	padding 0px;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url("../images/image.jpg") no-repeat center center fixed;;
+}
+a{
+	color:rgba(101, 202, 210,1);
+}
+#navbar nav ul a li{
+	display:inline-block;
+	padding: 0px;
+}
+#navbar nav{
+	background-color:rgba(0,0,0,0.7);
+	box-shadow:1px 1px 20px black;
+	text-align:center;
+	/*font-family: 'Lato', sans-serif;*/
+	border-radius: 0px 0px 8px 8px;
+	width: 100%;
+}
+#navbar nav ul a:hover{
+	color:white;
+	font-weight: bolder;
+	background-color: rgba(101, 202, 210,1);
+	box-shadow:1px 1px 20px rgba(101, 202, 210,1);
+	border-radius: 5px;
+}
+#navbar nav ul{
+	padding: 1% 0%;
+	margin: 0px;
+}
+#navbar nav ul a{
+	padding: 1% 2%;
+	margin: 0px;
+	font-weight: bolder;
+}
+#navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.blackBox{
+	/*vertical-align: middle;*/
+	text-align:center;
+	/*font-family: 'Lato', sans-serif;*/
+	color:rgba(101, 202, 210,1);
+	font-size: 190%;
+	background-color:rgba(0,0,0,0.7);
+	/*margin:8% 25% 6% 25%;*/
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;*/
+	margin: 10% auto 5% auto;
+	max-width: 65%;
+	padding:4% 2%;
+	box-shadow:2px 2px 30px black;
+	border-radius:10px;
+	overflow: auto;
+}
+.greyBox{
+	float: right;
+	width: 70%;
+	background-color: rgba(255,255,255,0.1);
+	font-size: 60%;
+	padding: 2%;
+	margin-right: 1%;
+	border-radius: 10px;
+}
+input{
+	color:rgba(0,0,0,1);
+	padding: 2%;
+	font-family: 'Lato', sans-serif;
+}
+input[type=submit]{
+	border:rgba(101, 202, 210,1);
+	padding:2% 3%;
+	color:rgba(255,255,255,1);
+	font-weight:bold;
+	background-color: rgba(101, 202, 210,0.8);
+	border-radius: 3px;
+	box-shadow: 1px 1px 20px black;
+}
+input[type=submit]:hover{
+	box-shadow: 2px 2px 20px rgba(101, 202, 210,0.8);
+}
+#menu{
+	width: 24%;
+	float: left;
+	font-size: 70%;
+}
+#menu ul{
+	margin-top: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+#menu ul a{
+	text-decoration: none;
+}
+#menu ul a li:hover{
+	color: rgba(255,255,255,1);
+	background-color: rgba(101, 202, 210,0.8);
+	border-radius: 5px;
+	box-shadow:1px 1px 20px rgba(101, 202, 210,1);
+}
+#menu ul a li{
+	margin-bottom: 10%;
+	padding: 2% 0%;
+}
