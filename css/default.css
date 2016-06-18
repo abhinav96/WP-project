@@ -1,6 +1,6 @@
 html {
 	margin: 0px;
-	padding 0px;
+	padding: 0px;
 	font-family: 'Lato', sans-serif;
 }
 body{
@@ -19,7 +19,6 @@ a{
 	background-color:rgba(0,0,0,0.7);
 	box-shadow:1px 1px 20px black;
 	text-align:center;
-	/*font-family: 'Lato', sans-serif;*/
 	border-radius: 0px 0px 8px 8px;
 	width: 100%;
 }
@@ -47,16 +46,10 @@ a{
 	padding: 0px;
 }
 .blackBox{
-	/*vertical-align: middle;*/
 	text-align:center;
-	/*font-family: 'Lato', sans-serif;*/
 	color:rgba(101, 202, 210,1);
 	font-size: 190%;
 	background-color:rgba(0,0,0,0.7);
-	/*margin:8% 25% 6% 25%;*/
-	/*margin-left: auto;
-	margin-right: auto;
-	margin-top: 8%;*/
 	margin: 10% auto 5% auto;
 	max-width: 65%;
 	padding:4% 2%;
