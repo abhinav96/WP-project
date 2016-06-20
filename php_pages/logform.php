@@ -20,7 +20,7 @@
 		</p>
 		<div id="login">
 			<p>Login To Get Started!</p>
-			<form method="POST" action="../php_pages/login.php" onsubmit="return verify()">
+			<form method="POST" action="../php_pages/login.php" id='loginform'>
 			<table>
 				<tr>
 					<td>
@@ -59,6 +59,7 @@
 			</form>
 		</div>
 	</div>
+	<script src="../javascript/jquery-3.0.0.js"></script>
 	<script type="text/javascript" src="../javascript/logformjs.js"></script>
 </body>
 </html>

@@ -1,13 +1,15 @@
-function verify() {
-	var em = document.getElementById('email').value.toString();
-	var pw = document.getElementById('pwd').value.toString();
-	var m = em.match(/@ves.ac.in/i);
-	if (!m) {
-		document.getElementById('error').innerHTML = "Invalid email";
-		return false;
-	}
-	if (pw.length<8) {
-		document.getElementById('error').innerHTML = "Invalid password";
-		return false;
-	}
-}
+$(document).ready(function() {
+	$('#loginform').submit(function(event) {
+		var reg = new RegExp('ves.ac.in');
+		if (reg.test($('#email').val())) {
+			if($('#pwd').val().length < 8){
+				$('#error').html('Invalid Password');
+				event.preventDefault();
+			}
+		}
+		else{
+			$('#error').html('Invalid Email');
+			event.preventDefault();
+		}
+	});
+});
